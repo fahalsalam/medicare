@@ -9,7 +9,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-6">
             <div className="flex items-center space-x-2">
-              <Heart className="w-8 h-8 text-green-400" />
+              <Heart className="w-8 h-8 text-blue-500" />
               <span className="text-2xl font-bold">Mavenhawk</span>
             </div>
             <p className="text-gray-300 leading-relaxed">
@@ -17,16 +17,16 @@ const Footer = () => {
               world-class medical treatments at affordable prices worldwide.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="bg-gray-800 p-2 rounded-full hover:bg-green-500 transition-colors">
+              <a href="#" className="bg-gray-800 p-2 rounded-full hover:bg-blue-600 transition-colors">
                 <Facebook className="w-5 h-5" />
               </a>
-              <a href="#" className="bg-gray-800 p-2 rounded-full hover:bg-green-500 transition-colors">
+              <a href="#" className="bg-gray-800 p-2 rounded-full hover:bg-blue-600 transition-colors">
                 <Twitter className="w-5 h-5" />
               </a>
-              <a href="#" className="bg-gray-800 p-2 rounded-full hover:bg-green-500 transition-colors">
+              <a href="#" className="bg-gray-800 p-2 rounded-full hover:bg-blue-600 transition-colors">
                 <Instagram className="w-5 h-5" />
               </a>
-              <a href="#" className="bg-gray-800 p-2 rounded-full hover:bg-green-500 transition-colors">
+              <a href="#" className="bg-gray-800 p-2 rounded-full hover:bg-blue-600 transition-colors">
                 <Linkedin className="w-5 h-5" />
               </a>
             </div>
@@ -63,21 +63,21 @@ const Footer = () => {
             <h3 className="text-lg font-bold mb-6">Contact Us</h3>
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
-                <Phone className="w-5 h-5 text-green-400 flex-shrink-0" />
+                <Phone className="w-5 h-5 text-blue-500 flex-shrink-0" />
                 <div>
                   <p className="font-medium">+1 (555) 123-4567</p>
                   <p className="text-sm text-gray-300">24/7 Support</p>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
-                <Mail className="w-5 h-5 text-green-400 flex-shrink-0" />
+                <Mail className="w-5 h-5 text-blue-500 flex-shrink-0" />
                 <div>
                   <p className="font-medium">info@mediglobal.com</p>
                   <p className="text-sm text-gray-300">Email Support</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
-                <MapPin className="w-5 h-5 text-green-400 flex-shrink-0 mt-1" />
+                <MapPin className="w-5 h-5 text-blue-500 flex-shrink-0 mt-1" />
                 <div>
                   <p className="font-medium">123 Healthcare Plaza</p>
                   <p className="text-sm text-gray-300">Miami, FL 33101, USA</p>

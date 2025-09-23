@@ -17,7 +17,7 @@ const Services = () => {
       description: 'Joint replacements, sports medicine, spine surgery with cutting-edge technology.',
       price: 'From $8,000',
       savings: 'Save up to 80%',
-      color: 'bg-green-100 text-green-500'
+      color: 'bg-blue-100 text-blue-600'
     },
     {
       icon: Eye,
@@ -25,7 +25,7 @@ const Services = () => {
       description: 'LASIK, cataract surgery, retinal treatments with world-renowned specialists.',
       price: 'From $2,500',
       savings: 'Save up to 60%',
-      color: 'bg-green-100 text-green-600'
+      color: 'bg-blue-100 text-blue-700'
     },
     {
       icon: Baby,
@@ -85,10 +85,10 @@ const Services = () => {
               </p>
               
               <div className="flex justify-between items-center mb-4">
-                <span className="text-2xl font-bold text-green-500">
+                <span className="text-2xl font-bold text-blue-600">
                   {service.price}
                 </span>
-                <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">
+                <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">
                   {service.savings}
                 </span>
               </div>
@@ -101,7 +101,7 @@ const Services = () => {
         </div>
 
         <div className="text-center mt-12">
-          <button className="bg-green-500 text-white px-8 py-4 rounded-full hover:bg-green-600 transition-colors font-semibold">
+          <button className="bg-blue-600 text-white px-8 py-4 rounded-full hover:bg-blue-700 transition-colors font-semibold">
             View All Services
           </button>
         </div>

@@ -50,7 +50,7 @@ const Testimonials = () => {
   ];
 
   return (
-    <section id="testimonials" className="py-20 bg-gradient-to-br from-blue-50 to-green-50">
+    <section id="testimonials" className="py-20 bg-gradient-to-br from-blue-50 to-blue-100">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-800 mb-4">
@@ -102,7 +102,7 @@ const Testimonials = () => {
               </div>
 
               <div className="flex justify-between items-center">
-                <span className="bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-semibold">
+                <span className="bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-semibold">
                   {testimonial.savings}
                 </span>
                 <button className="text-blue-600 hover:text-blue-800 font-medium text-sm transition-colors">
@@ -117,13 +117,13 @@ const Testimonials = () => {
           <h3 className="text-2xl font-bold text-gray-800 mb-4">
             Join Thousands of Satisfied Patients
           </h3>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-8">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-8">
             <div>
-              <div className="text-3xl font-bold text-green-500 mb-1">15,000+</div>
+              <div className="text-3xl font-bold text-blue-600 mb-1">15,000+</div>
               <div className="text-gray-600 text-sm">Procedures Completed</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-green-600 mb-1">98%</div>
+              <div className="text-3xl font-bold text-blue-700 mb-1">98%</div>
               <div className="text-gray-600 text-sm">Satisfaction Rate</div>
             </div>
             <div>
@@ -135,7 +135,7 @@ const Testimonials = () => {
               <div className="text-gray-600 text-sm">Total Savings</div>
             </div>
           </div>
-          <button className="bg-green-500 text-white px-8 py-4 rounded-full hover:bg-green-600 transition-colors font-semibold">
+          <button className="bg-blue-600 text-white px-8 py-4 rounded-full hover:bg-blue-700 transition-colors font-semibold">
             Start Your Journey Today
           </button>
         </div>

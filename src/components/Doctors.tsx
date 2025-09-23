@@ -84,7 +84,7 @@ const Doctors = () => {
                 <h3 className="text-xl font-bold text-gray-800 mb-1">
                   {doctor.name}
                 </h3>
-                <p className="text-green-500 font-semibold mb-2">
+                <p className="text-blue-600 font-semibold mb-2">
                   {doctor.specialty}
                 </p>
                 <p className="text-gray-600 text-sm mb-4">
@@ -93,11 +93,11 @@ const Doctors = () => {
 
                 <div className="space-y-3 mb-6">
                   <div className="flex items-center space-x-2 text-gray-600">
-                    <Award className="w-4 h-4 text-green-500" />
+                    <Award className="w-4 h-4 text-blue-600" />
                     <span className="text-sm">{doctor.experience}</span>
                   </div>
                   <div className="flex items-center space-x-2 text-gray-600">
-                    <Users className="w-4 h-4 text-green-600" />
+                    <Users className="w-4 h-4 text-blue-700" />
                     <span className="text-sm">{doctor.patients}</span>
                   </div>
                   <div className="flex items-center space-x-2 text-gray-600">
@@ -117,7 +117,7 @@ const Doctors = () => {
                   </div>
                 </div>
 
-                <button className="w-full bg-green-500 text-white py-3 rounded-lg hover:bg-green-600 transition-colors font-medium">
+                <button className="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition-colors font-medium">
                   Book Consultation
                 </button>
               </div>

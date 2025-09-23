@@ -50,8 +50,8 @@ const Contact = () => {
               </h3>
               <div className="space-y-6">
                 <div className="flex items-center space-x-4">
-                  <div className="bg-green-100 w-12 h-12 rounded-full flex items-center justify-center">
-                    <Phone className="w-6 h-6 text-green-500" />
+                  <div className="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center">
+                    <Phone className="w-6 h-6 text-blue-600" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-800">Phone</h4>
@@ -60,8 +60,8 @@ const Contact = () => {
                 </div>
                 
                 <div className="flex items-center space-x-4">
-                  <div className="bg-green-100 w-12 h-12 rounded-full flex items-center justify-center">
-                    <Mail className="w-6 h-6 text-green-600" />
+                  <div className="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center">
+                    <Mail className="w-6 h-6 text-blue-700" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-800">Email</h4>
@@ -96,11 +96,11 @@ const Contact = () => {
               <h4 className="text-lg font-bold text-gray-800 mb-6">Why Choose Mavenhawk?</h4>
               <div className="grid grid-cols-2 gap-6">
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-green-500 mb-1">15+</div>
+                  <div className="text-2xl font-bold text-blue-600 mb-1">15+</div>
                   <div className="text-gray-600 text-sm">Years Experience</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-green-600 mb-1">50+</div>
+                  <div className="text-2xl font-bold text-blue-700 mb-1">50+</div>
                   <div className="text-gray-600 text-sm">Partner Hospitals</div>
                 </div>
                 <div className="text-center">
@@ -123,7 +123,7 @@ const Contact = () => {
             
             {isSubmitted ? (
               <div className="text-center py-8">
-                <CheckCircle className="w-16 h-16 text-green-600 mx-auto mb-4" />
+                <CheckCircle className="w-16 h-16 text-blue-700 mx-auto mb-4" />
                 <h4 className="text-xl font-bold text-gray-800 mb-2">Thank You!</h4>
                 <p className="text-gray-600">
                   Your consultation request has been submitted. Our team will contact you within 24 hours.
@@ -142,7 +142,7 @@ const Contact = () => {
                       required
                       value={formData.name}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500 transition-colors"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors"
                       placeholder="Your full name"
                     />
                   </div>
@@ -156,7 +156,7 @@ const Contact = () => {
                       required
                       value={formData.email}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500 transition-colors"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors"
                       placeholder="your@email.com"
                     />
                   </div>
@@ -173,7 +173,7 @@ const Contact = () => {
                       required
                       value={formData.phone}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500 transition-colors"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors"
                       placeholder="+1 (555) 123-4567"
                     />
                   </div>
@@ -185,7 +185,7 @@ const Contact = () => {
                       name="procedure"
                       value={formData.procedure}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500 transition-colors"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors"
                     >
                       <option value="">Select procedure</option>
                       <option value="cardiac">Cardiac Surgery</option>
@@ -209,7 +209,7 @@ const Contact = () => {
                       name="destination"
                       value={formData.destination}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500 transition-colors"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors"
                     >
                       <option value="">Select destination</option>
                       <option value="thailand">Thailand</option>
@@ -249,14 +249,14 @@ const Contact = () => {
                     rows={4}
                     value={formData.message}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500 transition-colors resize-none"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors resize-none"
                     placeholder="Tell us about your medical needs, concerns, or any specific requirements..."
                   ></textarea>
                 </div>
 
                 <button
                   type="submit"
-                  className="w-full bg-green-500 text-white px-6 py-4 rounded-lg hover:bg-green-600 transition-colors font-semibold flex items-center justify-center space-x-2 transform hover:scale-105"
+                  className="w-full bg-blue-600 text-white px-6 py-4 rounded-lg hover:bg-blue-700 transition-colors font-semibold flex items-center justify-center space-x-2 transform hover:scale-105"
                 >
                   <Send className="w-5 h-5" />
                   <span>Request Free Consultation</span>

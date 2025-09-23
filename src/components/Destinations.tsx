@@ -74,14 +74,14 @@ const Destinations = () => {
                   <Star className="w-4 h-4 text-yellow-500 fill-current" />
                   <span className="text-sm font-medium">{destination.rating}</span>
                 </div>
-                <div className="absolute bottom-4 left-4 bg-green-500 text-white px-3 py-1 rounded-full text-sm font-medium">
+                <div className="absolute bottom-4 left-4 bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-medium">
                   {destination.savings}
                 </div>
               </div>
 
               <div className="p-6">
                 <div className="flex items-center space-x-2 mb-3">
-                  <MapPin className="w-5 h-5 text-green-500" />
+                  <MapPin className="w-5 h-5 text-blue-600" />
                   <h3 className="text-xl font-bold text-gray-800">
                     {destination.city}, {destination.country}
                   </h3>
@@ -104,7 +104,7 @@ const Destinations = () => {
                     {destination.specialties.map((specialty, idx) => (
                       <span 
                         key={idx}
-                        className="bg-green-100 text-green-700 text-xs px-2 py-1 rounded-full"
+                        className="bg-blue-100 text-blue-700 text-xs px-2 py-1 rounded-full"
                       >
                         {specialty}
                       </span>
@@ -112,7 +112,7 @@ const Destinations = () => {
                   </div>
                 </div>
 
-                <button className="w-full bg-green-500 text-white py-3 rounded-lg hover:bg-green-600 transition-colors font-medium">
+                <button className="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition-colors font-medium">
                   Explore {destination.country}
                 </button>
               </div>

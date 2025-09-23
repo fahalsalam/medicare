@@ -60,7 +60,7 @@ const FAQ = () => {
                 className="bg-gray-50 rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow"
               >
                 <button
-                  className="w-full text-left p-6 focus:outline-none focus:ring-2 focus:ring-green-500"
+                  className="w-full text-left p-6 focus:outline-none focus:ring-2 focus:ring-blue-500"
                   onClick={() => setOpenFAQ(openFAQ === index ? null : index)}
                 >
                   <div className="flex items-center justify-between">
@@ -69,7 +69,7 @@ const FAQ = () => {
                     </h3>
                     <div className="flex-shrink-0">
                       {openFAQ === index ? (
-                        <Minus className="w-5 h-5 text-green-500" />
+                        <Minus className="w-5 h-5 text-blue-600" />
                       ) : (
                         <Plus className="w-5 h-5 text-gray-400" />
                       )}
@@ -90,7 +90,7 @@ const FAQ = () => {
             ))}
           </div>
 
-          <div className="text-center mt-12 p-8 bg-gradient-to-r from-blue-50 to-green-50 rounded-xl">
+          <div className="text-center mt-12 p-8 bg-gradient-to-r from-blue-50 to-blue-100 rounded-xl">
             <h3 className="text-2xl font-bold text-gray-800 mb-4">
               Still Have Questions?
             </h3>
@@ -99,10 +99,10 @@ const FAQ = () => {
               and help you plan your healthcare journey.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-green-500 text-white px-8 py-3 rounded-full hover:bg-green-600 transition-colors font-medium">
+              <button className="bg-blue-600 text-white px-8 py-3 rounded-full hover:bg-blue-700 transition-colors font-medium">
                 Schedule Free Consultation
               </button>
-              <button className="border-2 border-green-500 text-green-500 px-8 py-3 rounded-full hover:bg-green-500 hover:text-white transition-colors font-medium">
+              <button className="border-2 border-blue-600 text-blue-600 px-8 py-3 rounded-full hover:bg-blue-600 hover:text-white transition-colors font-medium">
                 Call +1 (555) 123-4567
               </button>
             </div>
