@@ -9,7 +9,8 @@ const Services = () => {
       description: 'Advanced heart procedures including bypass, valve replacement, and minimally invasive cardiac treatments.',
       price: 'From $15,000',
       savings: 'Save up to 70%',
-      color: 'bg-red-100 text-red-600'
+      color: 'bg-red-100 text-red-600',
+      imageUrl: 'https://images.pexels.com/photos/5452293/pexels-photo-5452293.jpeg?auto=compress&cs=tinysrgb&w=800'
     },
     {
       icon: Bone,
@@ -17,7 +18,8 @@ const Services = () => {
       description: 'Joint replacements, sports medicine, spine surgery with cutting-edge technology.',
       price: 'From $8,000',
       savings: 'Save up to 80%',
-      color: 'bg-blue-100 text-blue-600'
+      color: 'bg-blue-100 text-blue-600',
+      imageUrl: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=800'
     },
     {
       icon: Eye,
@@ -25,7 +27,8 @@ const Services = () => {
       description: 'LASIK, cataract surgery, retinal treatments with world-renowned specialists.',
       price: 'From $2,500',
       savings: 'Save up to 60%',
-      color: 'bg-blue-100 text-blue-700'
+      color: 'bg-blue-100 text-blue-700',
+      imageUrl: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=800'
     },
     {
       icon: Baby,
@@ -33,7 +36,8 @@ const Services = () => {
       description: 'IVF, reproductive medicine, fertility preservation with highest success rates.',
       price: 'From $5,000',
       savings: 'Save up to 65%',
-      color: 'bg-pink-100 text-pink-600'
+      color: 'bg-pink-100 text-pink-600',
+      imageUrl: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=800'
     },
     {
       icon: Smile,
@@ -41,7 +45,8 @@ const Services = () => {
       description: 'Aesthetic procedures, reconstructive surgery by board-certified surgeons.',
       price: 'From $3,000',
       savings: 'Save up to 75%',
-      color: 'bg-purple-100 text-purple-600'
+      color: 'bg-purple-100 text-purple-600',
+      imageUrl: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=800'
     },
     {
       icon: Zap,
@@ -49,7 +54,8 @@ const Services = () => {
       description: 'Oncology care, radiation therapy, immunotherapy with latest protocols.',
       price: 'From $12,000',
       savings: 'Save up to 60%',
-      color: 'bg-orange-100 text-orange-600'
+      color: 'bg-orange-100 text-orange-600',
+      imageUrl: 'https://images.pexels.com/photos/5452293/pexels-photo-5452293.jpeg?auto=compress&cs=tinysrgb&w=800'
     }
   ];
 
@@ -72,6 +78,11 @@ const Services = () => {
               key={index} 
               className="group bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 border border-gray-100 hover:border-blue-200 transform hover:-translate-y-2"
             >
+              <img
+                src={service.imageUrl}
+                alt={service.title}
+                className="w-full h-40 object-cover rounded-lg mb-6 group-hover:scale-105 transition-transform"
+              />
               <div className={`w-16 h-16 rounded-full ${service.color} flex items-center justify-center mb-6 group-hover:scale-110 transition-transform`}>
                 <service.icon className="w-8 h-8" />
               </div>
