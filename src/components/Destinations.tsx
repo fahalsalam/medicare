@@ -4,24 +4,40 @@ import { MapPin, Star, Award, Clock } from 'lucide-react';
 const Destinations = () => {
   const destinations = [
     {
-      country: 'Thailand',
-      city: 'Bangkok',
-      image: 'https://images.pexels.com/photos/3376799/pexels-photo-3376799.jpeg?auto=compress&cs=tinysrgb&w=800',
-      hospitals: '25+ Partner Hospitals',
-      rating: '4.9',
-      specialties: ['Cardiac Surgery', 'Cosmetic Surgery', 'Orthopedics'],
-      savings: 'Up to 75% savings',
-      travelTime: '12-24 hours from US'
-    },
-    {
       country: 'India',
       city: 'New Delhi',
       image: 'https://images.pexels.com/photos/3376799/pexels-photo-3376799.jpeg?auto=compress&cs=tinysrgb&w=800',
       hospitals: '30+ Partner Hospitals',
       rating: '4.8',
-      specialties: ['Cancer Treatment', 'Fertility', 'Eye Surgery'],
+      specialties: ['Cardiac Surgery', 'Cancer Treatment', 'Orthopedics', 'Fertility'],
       savings: 'Up to 80% savings',
-      travelTime: '15-20 hours from US'
+      travelTime: '15-20 hours from US',
+      visaInfo: 'Medical Visa Required',
+      highlights: ['JCI Accredited', 'English Speaking', 'Cultural Heritage']
+    },
+    {
+      country: 'UAE',
+      city: 'Dubai',
+      image: 'https://images.pexels.com/photos/3376799/pexels-photo-3376799.jpeg?auto=compress&cs=tinysrgb&w=800',
+      hospitals: '25+ Partner Hospitals',
+      rating: '4.9',
+      specialties: ['Cosmetic Surgery', 'Cardiology', 'Orthopedics', 'Dental Care'],
+      savings: 'Up to 70% savings',
+      travelTime: '12-16 hours from US',
+      visaInfo: 'Visa on Arrival',
+      highlights: ['Luxury Facilities', 'No Language Barrier', 'Modern Infrastructure']
+    },
+    {
+      country: 'Thailand',
+      city: 'Bangkok',
+      image: 'https://images.pexels.com/photos/3376799/pexels-photo-3376799.jpeg?auto=compress&cs=tinysrgb&w=800',
+      hospitals: '25+ Partner Hospitals',
+      rating: '4.9',
+      specialties: ['Cosmetic Surgery', 'Dental Care', 'Fertility', 'Wellness'],
+      savings: 'Up to 75% savings',
+      travelTime: '12-24 hours from US',
+      visaInfo: 'Visa on Arrival',
+      highlights: ['Tourism Friendly', 'Affordable', 'High Quality Care']
     },
     {
       country: 'Turkey',
@@ -29,19 +45,11 @@ const Destinations = () => {
       image: 'https://images.pexels.com/photos/3376799/pexels-photo-3376799.jpeg?auto=compress&cs=tinysrgb&w=800',
       hospitals: '20+ Partner Hospitals',
       rating: '4.9',
-      specialties: ['Hair Transplant', 'Dental Care', 'Cosmetic Surgery'],
+      specialties: ['Hair Transplant', 'Dental Care', 'Cosmetic Surgery', 'Eye Surgery'],
       savings: 'Up to 70% savings',
-      travelTime: '8-12 hours from US'
-    },
-    {
-      country: 'Mexico',
-      city: 'Tijuana',
-      image: 'https://images.pexels.com/photos/3376799/pexels-photo-3376799.jpeg?auto=compress&cs=tinysrgb&w=800',
-      hospitals: '15+ Partner Hospitals',
-      rating: '4.7',
-      specialties: ['Dental Care', 'Weight Loss Surgery', 'Cosmetic Surgery'],
-      savings: 'Up to 65% savings',
-      travelTime: '2-6 hours from US'
+      travelTime: '8-12 hours from US',
+      visaInfo: 'e-Visa Available',
+      highlights: ['Hair Transplant Experts', 'Cultural Experience', 'Affordable Luxury']
     }
   ];
 

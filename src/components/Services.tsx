@@ -1,11 +1,10 @@
-import React from 'react';
-import { Heart, Eye, Bone, Baby, Zap, Smile } from 'lucide-react';
+import { Heart, Eye, Bone, Baby, Zap, Smile, Brain, Activity } from 'lucide-react';
 
 const Services = () => {
   const services = [
     {
       icon: Heart,
-      title: 'Cardiac Surgery',
+      title: 'Cardiology',
       description: 'Advanced heart procedures including bypass, valve replacement, and minimally invasive cardiac treatments.',
       price: 'From $15,000',
       savings: 'Save up to 70%',
@@ -14,7 +13,7 @@ const Services = () => {
     },
     {
       icon: Bone,
-      title: 'Orthopedic Surgery',
+      title: 'Orthopedics',
       description: 'Joint replacements, sports medicine, spine surgery with cutting-edge technology.',
       price: 'From $8,000',
       savings: 'Save up to 80%',
@@ -22,17 +21,8 @@ const Services = () => {
       imageUrl: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=800'
     },
     {
-      icon: Eye,
-      title: 'Ophthalmology',
-      description: 'LASIK, cataract surgery, retinal treatments with world-renowned specialists.',
-      price: 'From $2,500',
-      savings: 'Save up to 60%',
-      color: 'bg-blue-100 text-blue-700',
-      imageUrl: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=800'
-    },
-    {
       icon: Baby,
-      title: 'Fertility Treatments',
+      title: 'Fertility',
       description: 'IVF, reproductive medicine, fertility preservation with highest success rates.',
       price: 'From $5,000',
       savings: 'Save up to 65%',
@@ -50,12 +40,39 @@ const Services = () => {
     },
     {
       icon: Zap,
-      title: 'Cancer Treatment',
-      description: 'Oncology care, radiation therapy, immunotherapy with latest protocols.',
+      title: 'Oncology',
+      description: 'Cancer treatment, radiation therapy, immunotherapy with latest protocols.',
       price: 'From $12,000',
       savings: 'Save up to 60%',
       color: 'bg-orange-100 text-orange-600',
       imageUrl: 'https://images.pexels.com/photos/5452293/pexels-photo-5452293.jpeg?auto=compress&cs=tinysrgb&w=800'
+    },
+    {
+      icon: Brain,
+      title: 'Neurology',
+      description: 'Advanced neurological treatments, brain surgery, and neurological rehabilitation.',
+      price: 'From $18,000',
+      savings: 'Save up to 65%',
+      color: 'bg-indigo-100 text-indigo-600',
+      imageUrl: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=800'
+    },
+    {
+      icon: Activity,
+      title: 'General Surgery',
+      description: 'Comprehensive surgical procedures including minimally invasive and robotic surgery.',
+      price: 'From $6,000',
+      savings: 'Save up to 70%',
+      color: 'bg-green-100 text-green-600',
+      imageUrl: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=800'
+    },
+    {
+      icon: Eye,
+      title: 'Ophthalmology',
+      description: 'LASIK, cataract surgery, retinal treatments with world-renowned specialists.',
+      price: 'From $2,500',
+      savings: 'Save up to 60%',
+      color: 'bg-cyan-100 text-cyan-600',
+      imageUrl: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=800'
     }
   ];
 

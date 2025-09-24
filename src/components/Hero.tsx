@@ -9,22 +9,22 @@ const Hero = () => {
           <div className="space-y-8">
             <div className="space-y-4">
               <h1 className="text-4xl md:text-5xl xl:text-6xl font-bold text-gray-800 leading-tight">
-                World-Class Healthcare
-                <span className="block text-blue-600">At Your Fingertips</span>
+                Mavenhawk
+                <span className="block text-blue-600">Where Healthcare Meets Hospitality</span>
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">
-                Access premium medical treatments abroad with trusted hospitals, 
-                expert doctors, and comprehensive care packages at affordable prices.
+                Experience world-class medical treatments combined with exceptional hospitality. 
+                Trusted hospitals, expert doctors, and comprehensive care packages at affordable prices.
               </p>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
               <button className="group bg-blue-600 text-white px-8 py-4 rounded-full hover:bg-blue-700 transition-all duration-300 font-semibold flex items-center justify-center space-x-2 transform hover:scale-105">
-                <span>Start Your Journey</span>
+                <span>Get Free Quote</span>
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </button>
               <button className="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-full hover:bg-blue-600 hover:text-white transition-all duration-300 font-semibold">
-                Free Consultation
+                Talk to Our Experts
               </button>
             </div>
 
