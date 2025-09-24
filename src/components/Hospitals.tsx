@@ -47,52 +47,52 @@ const Hospitals = () => {
       doctors: '400+',
       description: 'Leading private hospital in Dubai offering world-class healthcare with American standards.',
       highlights: ['Luxury Care', 'Modern Infrastructure', 'International Standards', 'Comprehensive Services']
-    },
-    {
-      id: 4,
-      name: 'Memorial Hospital',
-      location: 'Istanbul, Turkey',
-      rating: 4.7,
-      reviews: 987,
-      image: 'https://images.pexels.com/photos/5452293/pexels-photo-5452293.jpeg?auto=compress&cs=tinysrgb&w=800',
-      specialties: ['Hair Transplant', 'Dental Care', 'Eye Surgery', 'Cosmetic Surgery'],
-      accreditations: ['JCI', 'ISO 9001:2015', 'ISO 14001'],
-      established: '2000',
-      beds: '200',
-      doctors: '300+',
-      description: 'Specialized in aesthetic and reconstructive surgery with internationally renowned specialists.',
-      highlights: ['Hair Transplant Experts', 'Affordable Luxury', 'Cultural Experience', 'High Success Rate']
-    },
-    {
-      id: 5,
-      name: 'Fortis Healthcare',
-      location: 'Mumbai, India',
-      rating: 4.8,
-      reviews: 2234,
-      image: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=800',
-      specialties: ['Cardiac Surgery', 'Cancer Treatment', 'Orthopedics', 'Neurology'],
-      accreditations: ['JCI', 'NABH', 'ISO 9001:2015'],
-      established: '1996',
-      beds: '4,000+',
-      doctors: '3,000+',
-      description: 'Leading healthcare provider with advanced technology and expert medical professionals.',
-      highlights: ['Advanced Technology', 'Expert Doctors', 'Comprehensive Care', 'Patient Safety']
-    },
-    {
-      id: 6,
-      name: 'Bangkok Hospital',
-      location: 'Bangkok, Thailand',
-      rating: 4.8,
-      reviews: 1678,
-      image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=800',
-      specialties: ['Fertility', 'Wellness', 'Dental Care', 'Cosmetic Surgery'],
-      accreditations: ['JCI', 'HAI', 'ISO 9001:2015'],
-      established: '1972',
-      beds: '1,000+',
-      doctors: '2,000+',
-      description: 'Thailand\'s largest private hospital network with comprehensive medical services.',
-      highlights: ['Comprehensive Services', 'Tourism Integration', 'Affordable Care', 'Quality Standards']
     }
+    // {
+    //   id: 4,
+    //   name: 'Memorial Hospital', 
+    //   location: 'Istanbul, Turkey',
+    //   rating: 4.7,
+    //   reviews: 987,
+    //   image: 'https://images.pexels.com/photos/5452293/pexels-photo-5452293.jpeg?auto=compress&cs=tinysrgb&w=800',
+    //   specialties: ['Hair Transplant', 'Dental Care', 'Eye Surgery', 'Cosmetic Surgery'],
+    //   accreditations: ['JCI', 'ISO 9001:2015', 'ISO 14001'],
+    //   established: '2000',
+    //   beds: '200',
+    //   doctors: '300+',
+    //   description: 'Specialized in aesthetic and reconstructive surgery with internationally renowned specialists.',
+    //   highlights: ['Hair Transplant Experts', 'Affordable Luxury', 'Cultural Experience', 'High Success Rate']
+    // },
+    // {
+    //   id: 5,
+    //   name: 'Fortis Healthcare',
+    //   location: 'Mumbai, India',
+    //   rating: 4.8,
+    //   reviews: 2234,
+    //   image: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=800',
+    //   specialties: ['Cardiac Surgery', 'Cancer Treatment', 'Orthopedics', 'Neurology'],
+    //   accreditations: ['JCI', 'NABH', 'ISO 9001:2015'],
+    //   established: '1996',
+    //   beds: '4,000+',
+    //   doctors: '3,000+',
+    //   description: 'Leading healthcare provider with advanced technology and expert medical professionals.',
+    //   highlights: ['Advanced Technology', 'Expert Doctors', 'Comprehensive Care', 'Patient Safety']
+    // },
+    // {
+    //   id: 6,
+    //   name: 'Bangkok Hospital',
+    //   location: 'Bangkok, Thailand',
+    //   rating: 4.8,
+    //   reviews: 1678,
+    //   image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=800',
+    //   specialties: ['Fertility', 'Wellness', 'Dental Care', 'Cosmetic Surgery'],
+    //   accreditations: ['JCI', 'HAI', 'ISO 9001:2015'],
+    //   established: '1972',
+    //   beds: '1,000+',
+    //   doctors: '2,000+',
+    //   description: 'Thailand\'s largest private hospital network with comprehensive medical services.',
+    //   highlights: ['Comprehensive Services', 'Tourism Integration', 'Affordable Care', 'Quality Standards']
+    // }
   ];
 
   const [selectedSpecialty, setSelectedSpecialty] = useState('all');
