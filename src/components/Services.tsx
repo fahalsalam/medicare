@@ -1,6 +1,9 @@
 import { Heart, Eye, Bone, Baby, Zap, Smile, Brain, Activity } from 'lucide-react';
+import useScrollAnimation from '../hooks/useScrollAnimation';
 
 const Services = () => {
+  const [sectionRef, isSectionVisible] = useScrollAnimation();
+
   const services = [
         {
           icon: Heart,
@@ -79,12 +82,17 @@ const Services = () => {
   return (
     <section id="services" className="py-20 bg-white">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
+        <div 
+          ref={sectionRef}
+          className={`text-center mb-16 transition-all duration-1000 ${
+            isSectionVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+          }`}
+        >
           <h2 className="text-4xl font-bold text-gray-800 mb-4">
             Comprehensive Medical Services
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            From consultation to follow-up care, we provide complete medical tourism services 
+            From consultation to follow-up care, we provide complete medical tourism services
             with world-class facilities and expert medical professionals.
           </p>
         </div>

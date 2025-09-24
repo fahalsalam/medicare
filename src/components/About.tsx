@@ -1,6 +1,9 @@
 import { Award, Shield, Users, Globe, Heart, CheckCircle } from 'lucide-react';
+import useScrollAnimation from '../hooks/useScrollAnimation';
 
 const About = () => {
+  const [sectionRef, isSectionVisible] = useScrollAnimation();
+
   const certifications = [
     { name: 'JCI Accredited', description: 'Joint Commission International' },
     { name: 'ISO 9001:2015', description: 'Quality Management System' },
@@ -42,7 +45,12 @@ const About = () => {
     <section id="about" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         {/* Hero Section */}
-        <div className="text-center mb-16">
+        <div 
+          ref={sectionRef}
+          className={`text-center mb-16 transition-all duration-1000 ${
+            isSectionVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+          }`}
+        >
           <h2 className="text-4xl font-bold text-gray-800 mb-6">
             About Mavenhawk
           </h2>

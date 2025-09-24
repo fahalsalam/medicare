@@ -1,12 +1,21 @@
 import React from 'react';
 import { ArrowRight, Shield, Award, Globe } from 'lucide-react';
+import useScrollAnimation from '../hooks/useScrollAnimation';
 
 const Hero = () => {
+  const [textRef, isTextVisible] = useScrollAnimation();
+  const [imageRef, isImageVisible] = useScrollAnimation();
+
   return (
     <section className="pt-24 md:pt-32 pb-16 bg-gradient-to-br from-blue-50 via-white to-blue-100 overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="space-y-8">
+          <div 
+            ref={textRef}
+            className={`space-y-8 transition-all duration-1000 ${
+              isTextVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'
+            }`}
+          >
             <div className="space-y-4">
               <h1 className="text-4xl md:text-5xl xl:text-6xl font-bold text-gray-800 leading-tight">
                 Mavenhawk
@@ -50,7 +59,12 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="relative">
+          <div 
+            ref={imageRef}
+            className={`relative transition-all duration-1000 delay-300 ${
+              isImageVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-10'
+            }`}
+          >
                 <div className="relative z-10">
                   <img
                     src="https://images.pexels.com/photos/4386464/pexels-photo-4386464.jpeg?auto=compress&cs=tinysrgb&w=800"

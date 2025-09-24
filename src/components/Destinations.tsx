@@ -1,7 +1,10 @@
 import React from 'react';
 import { MapPin, Star, Award, Clock } from 'lucide-react';
+import useScrollAnimation from '../hooks/useScrollAnimation';
 
 const Destinations = () => {
+  const [sectionRef, isSectionVisible] = useScrollAnimation();
+
   const destinations = [
         {
           country: 'India',
@@ -56,12 +59,17 @@ const Destinations = () => {
   return (
     <section id="destinations" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
+        <div 
+          ref={sectionRef}
+          className={`text-center mb-16 transition-all duration-1000 ${
+            isSectionVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+          }`}
+        >
           <h2 className="text-4xl font-bold text-gray-800 mb-4">
             Trusted Medical Destinations
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Our carefully selected destinations offer world-class healthcare facilities 
+            Our carefully selected destinations offer world-class healthcare facilities
             with internationally accredited hospitals and experienced medical professionals.
           </p>
         </div>

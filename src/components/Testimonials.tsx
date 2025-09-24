@@ -1,7 +1,10 @@
 import React from 'react';
 import { Star, Quote } from 'lucide-react';
+import useScrollAnimation from '../hooks/useScrollAnimation';
 
 const Testimonials = () => {
+  const [sectionRef, isSectionVisible] = useScrollAnimation();
+
   const testimonials = [
         {
           name: 'Jennifer Martinez',
@@ -52,12 +55,17 @@ const Testimonials = () => {
   return (
     <section id="testimonials" className="py-20 bg-gradient-to-br from-blue-50 to-blue-100">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
+        <div 
+          ref={sectionRef}
+          className={`text-center mb-16 transition-all duration-1000 ${
+            isSectionVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+          }`}
+        >
           <h2 className="text-4xl font-bold text-gray-800 mb-4">
             Real Stories, Real Results
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Hear from thousands of satisfied patients who have transformed their lives 
+            Hear from thousands of satisfied patients who have transformed their lives
             through our medical tourism programs worldwide.
           </p>
         </div>
