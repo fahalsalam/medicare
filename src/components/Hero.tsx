@@ -51,13 +51,13 @@ const Hero = () => {
           </div>
 
           <div className="relative">
-            <div className="relative z-10">
-              <img 
-                src="https://images.pexels.com/photos/5452293/pexels-photo-5452293.jpeg?auto=compress&cs=tinysrgb&w=800" 
-                alt="Medical tourism consultation" 
-                className="rounded-2xl shadow-2xl w-full h-[500px] object-cover"
-              />
-            </div>
+                <div className="relative z-10">
+                  <img
+                    src="https://images.pexels.com/photos/4386464/pexels-photo-4386464.jpeg?auto=compress&cs=tinysrgb&w=800"
+                    alt="Medical tourism consultation"
+                    className="rounded-2xl shadow-2xl w-full h-[500px] object-cover"
+                  />
+                </div>
             <div className="absolute -bottom-4 -left-4 w-24 h-24 bg-blue-200 rounded-full opacity-60"></div>
             <div className="absolute -top-4 -right-4 w-32 h-32 bg-blue-200 rounded-full opacity-40"></div>
             <div className="absolute top-1/2 -left-8 w-16 h-16 bg-orange-200 rounded-full opacity-50"></div>

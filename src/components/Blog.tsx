@@ -19,7 +19,7 @@ const Blog = () => {
       author: 'Dr. Sarah Johnson',
       date: '2024-01-15',
       readTime: '8 min read',
-      image: 'https://images.pexels.com/photos/3376799/pexels-photo-3376799.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://images.pexels.com/photos/1007657/pexels-photo-1007657.jpeg?auto=compress&cs=tinysrgb&w=800',
       featured: true
     },
     {
@@ -30,7 +30,7 @@ const Blog = () => {
       author: 'Dr. Michael Chen',
       date: '2024-01-12',
       readTime: '6 min read',
-      image: 'https://images.pexels.com/photos/5452293/pexels-photo-5452293.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://images.pexels.com/photos/4167544/pexels-photo-4167544.jpeg?auto=compress&cs=tinysrgb&w=800',
       featured: false
     },
     {
@@ -41,7 +41,7 @@ const Blog = () => {
       author: 'Lisa Thompson',
       date: '2024-01-10',
       readTime: '5 min read',
-      image: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://images.pexels.com/photos/4386464/pexels-photo-4386464.jpeg?auto=compress&cs=tinysrgb&w=800',
       featured: false
     },
     {
@@ -52,7 +52,7 @@ const Blog = () => {
       author: 'Dr. Rajesh Kumar',
       date: '2024-01-08',
       readTime: '7 min read',
-      image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://images.pexels.com/photos/3985163/pexels-photo-3985163.jpeg?auto=compress&cs=tinysrgb&w=800',
       featured: false
     },
     {
@@ -63,7 +63,7 @@ const Blog = () => {
       author: 'Mark Wilson',
       date: '2024-01-05',
       readTime: '4 min read',
-      image: 'https://images.pexels.com/photos/3376799/pexels-photo-3376799.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://images.pexels.com/photos/3825581/pexels-photo-3825581.jpeg?auto=compress&cs=tinysrgb&w=800',
       featured: false
     },
     {
@@ -74,7 +74,7 @@ const Blog = () => {
       author: 'Dr. Maria Santos',
       date: '2024-01-03',
       readTime: '6 min read',
-      image: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://images.pexels.com/photos/4021773/pexels-photo-4021773.jpeg?auto=compress&cs=tinysrgb&w=800',
       featured: false
     }
   ];

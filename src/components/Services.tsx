@@ -2,78 +2,78 @@ import { Heart, Eye, Bone, Baby, Zap, Smile, Brain, Activity } from 'lucide-reac
 
 const Services = () => {
   const services = [
-    {
-      icon: Heart,
-      title: 'Cardiology',
-      description: 'Advanced heart procedures including bypass, valve replacement, and minimally invasive cardiac treatments.',
-      price: 'From $15,000',
-      savings: 'Save up to 70%',
-      color: 'bg-red-100 text-red-600',
-      imageUrl: 'https://images.pexels.com/photos/5452293/pexels-photo-5452293.jpeg?auto=compress&cs=tinysrgb&w=800'
-    },
-    {
-      icon: Bone,
-      title: 'Orthopedics',
-      description: 'Joint replacements, sports medicine, spine surgery with cutting-edge technology.',
-      price: 'From $8,000',
-      savings: 'Save up to 80%',
-      color: 'bg-blue-100 text-blue-600',
-      imageUrl: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=800'
-    },
-    {
-      icon: Baby,
-      title: 'Fertility',
-      description: 'IVF, reproductive medicine, fertility preservation with highest success rates.',
-      price: 'From $5,000',
-      savings: 'Save up to 65%',
-      color: 'bg-pink-100 text-pink-600',
-      imageUrl: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=800'
-    },
-    {
-      icon: Smile,
-      title: 'Cosmetic Surgery',
-      description: 'Aesthetic procedures, reconstructive surgery by board-certified surgeons.',
-      price: 'From $3,000',
-      savings: 'Save up to 75%',
-      color: 'bg-purple-100 text-purple-600',
-      imageUrl: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=800'
-    },
-    {
-      icon: Zap,
-      title: 'Oncology',
-      description: 'Cancer treatment, radiation therapy, immunotherapy with latest protocols.',
-      price: 'From $12,000',
-      savings: 'Save up to 60%',
-      color: 'bg-orange-100 text-orange-600',
-      imageUrl: 'https://images.pexels.com/photos/5452293/pexels-photo-5452293.jpeg?auto=compress&cs=tinysrgb&w=800'
-    },
-    {
-      icon: Brain,
-      title: 'Neurology',
-      description: 'Advanced neurological treatments, brain surgery, and neurological rehabilitation.',
-      price: 'From $18,000',
-      savings: 'Save up to 65%',
-      color: 'bg-indigo-100 text-indigo-600',
-      imageUrl: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=800'
-    },
-    {
-      icon: Activity,
-      title: 'General Surgery',
-      description: 'Comprehensive surgical procedures including minimally invasive and robotic surgery.',
-      price: 'From $6,000',
-      savings: 'Save up to 70%',
-      color: 'bg-green-100 text-green-600',
-      imageUrl: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=800'
-    },
-    {
-      icon: Eye,
-      title: 'Ophthalmology',
-      description: 'LASIK, cataract surgery, retinal treatments with world-renowned specialists.',
-      price: 'From $2,500',
-      savings: 'Save up to 60%',
-      color: 'bg-cyan-100 text-cyan-600',
-      imageUrl: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=800'
-    }
+        {
+          icon: Heart,
+          title: 'Cardiology',
+          description: 'Advanced heart procedures including bypass, valve replacement, and minimally invasive cardiac treatments.',
+          price: 'From $15,000',
+          savings: 'Save up to 70%',
+          color: 'bg-red-100 text-red-600',
+          imageUrl: 'https://images.pexels.com/photos/4386464/pexels-photo-4386464.jpeg?auto=compress&cs=tinysrgb&w=800'
+        },
+        {
+          icon: Bone,
+          title: 'Orthopedics',
+          description: 'Joint replacements, sports medicine, spine surgery with cutting-edge technology.',
+          price: 'From $8,000',
+          savings: 'Save up to 80%',
+          color: 'bg-blue-100 text-blue-600',
+          imageUrl: 'https://images.pexels.com/photos/4167544/pexels-photo-4167544.jpeg?auto=compress&cs=tinysrgb&w=800'
+        },
+        {
+          icon: Baby,
+          title: 'Fertility',
+          description: 'IVF, reproductive medicine, fertility preservation with highest success rates.',
+          price: 'From $5,000',
+          savings: 'Save up to 65%',
+          color: 'bg-pink-100 text-pink-600',
+          imageUrl: 'https://images.pexels.com/photos/5215024/pexels-photo-5215024.jpeg?auto=compress&cs=tinysrgb&w=800'
+        },
+        {
+          icon: Smile,
+          title: 'Cosmetic Surgery',
+          description: 'Aesthetic procedures, reconstructive surgery by board-certified surgeons.',
+          price: 'From $3,000',
+          savings: 'Save up to 75%',
+          color: 'bg-purple-100 text-purple-600',
+          imageUrl: 'https://images.pexels.com/photos/5452293/pexels-photo-5452293.jpeg?auto=compress&cs=tinysrgb&w=800'
+        },
+        {
+          icon: Zap,
+          title: 'Oncology',
+          description: 'Cancer treatment, radiation therapy, immunotherapy with latest protocols.',
+          price: 'From $12,000',
+          savings: 'Save up to 60%',
+          color: 'bg-orange-100 text-orange-600',
+          imageUrl: 'https://images.pexels.com/photos/3985163/pexels-photo-3985163.jpeg?auto=compress&cs=tinysrgb&w=800'
+        },
+        {
+          icon: Brain,
+          title: 'Neurology',
+          description: 'Advanced neurological treatments, brain surgery, and neurological rehabilitation.',
+          price: 'From $18,000',
+          savings: 'Save up to 65%',
+          color: 'bg-indigo-100 text-indigo-600',
+          imageUrl: 'https://images.pexels.com/photos/4021773/pexels-photo-4021773.jpeg?auto=compress&cs=tinysrgb&w=800'
+        },
+        {
+          icon: Activity,
+          title: 'General Surgery',
+          description: 'Comprehensive surgical procedures including minimally invasive and robotic surgery.',
+          price: 'From $6,000',
+          savings: 'Save up to 70%',
+          color: 'bg-green-100 text-green-600',
+          imageUrl: 'https://images.pexels.com/photos/3825581/pexels-photo-3825581.jpeg?auto=compress&cs=tinysrgb&w=800'
+        },
+        {
+          icon: Eye,
+          title: 'Ophthalmology',
+          description: 'LASIK, cataract surgery, retinal treatments with world-renowned specialists.',
+          price: 'From $2,500',
+          savings: 'Save up to 60%',
+          color: 'bg-cyan-100 text-cyan-600',
+          imageUrl: 'https://images.pexels.com/photos/4386466/pexels-photo-4386466.jpeg?auto=compress&cs=tinysrgb&w=800'
+        }
   ];
 
   return (

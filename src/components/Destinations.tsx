@@ -3,54 +3,54 @@ import { MapPin, Star, Award, Clock } from 'lucide-react';
 
 const Destinations = () => {
   const destinations = [
-    {
-      country: 'India',
-      city: 'New Delhi',
-      image: 'https://images.pexels.com/photos/3376799/pexels-photo-3376799.jpeg?auto=compress&cs=tinysrgb&w=800',
-      hospitals: '30+ Partner Hospitals',
-      rating: '4.8',
-      specialties: ['Cardiac Surgery', 'Cancer Treatment', 'Orthopedics', 'Fertility'],
-      savings: 'Up to 80% savings',
-      travelTime: '15-20 hours from US',
-      visaInfo: 'Medical Visa Required',
-      highlights: ['JCI Accredited', 'English Speaking', 'Cultural Heritage']
-    },
-    {
-      country: 'UAE',
-      city: 'Dubai',
-      image: 'https://images.pexels.com/photos/3376799/pexels-photo-3376799.jpeg?auto=compress&cs=tinysrgb&w=800',
-      hospitals: '25+ Partner Hospitals',
-      rating: '4.9',
-      specialties: ['Cosmetic Surgery', 'Cardiology', 'Orthopedics', 'Dental Care'],
-      savings: 'Up to 70% savings',
-      travelTime: '12-16 hours from US',
-      visaInfo: 'Visa on Arrival',
-      highlights: ['Luxury Facilities', 'No Language Barrier', 'Modern Infrastructure']
-    },
-    {
-      country: 'Thailand',
-      city: 'Bangkok',
-      image: 'https://images.pexels.com/photos/3376799/pexels-photo-3376799.jpeg?auto=compress&cs=tinysrgb&w=800',
-      hospitals: '25+ Partner Hospitals',
-      rating: '4.9',
-      specialties: ['Cosmetic Surgery', 'Dental Care', 'Fertility', 'Wellness'],
-      savings: 'Up to 75% savings',
-      travelTime: '12-24 hours from US',
-      visaInfo: 'Visa on Arrival',
-      highlights: ['Tourism Friendly', 'Affordable', 'High Quality Care']
-    },
-    {
-      country: 'Turkey',
-      city: 'Istanbul',
-      image: 'https://images.pexels.com/photos/3376799/pexels-photo-3376799.jpeg?auto=compress&cs=tinysrgb&w=800',
-      hospitals: '20+ Partner Hospitals',
-      rating: '4.9',
-      specialties: ['Hair Transplant', 'Dental Care', 'Cosmetic Surgery', 'Eye Surgery'],
-      savings: 'Up to 70% savings',
-      travelTime: '8-12 hours from US',
-      visaInfo: 'e-Visa Available',
-      highlights: ['Hair Transplant Experts', 'Cultural Experience', 'Affordable Luxury']
-    }
+        {
+          country: 'India',
+          city: 'New Delhi',
+          image: 'https://images.pexels.com/photos/1212600/pexels-photo-1212600.jpeg?auto=compress&cs=tinysrgb&w=800',
+          hospitals: '30+ Partner Hospitals',
+          rating: '4.8',
+          specialties: ['Cardiac Surgery', 'Cancer Treatment', 'Orthopedics', 'Fertility'],
+          savings: 'Up to 80% savings',
+          travelTime: '15-20 hours from US',
+          visaInfo: 'Medical Visa Required',
+          highlights: ['JCI Accredited', 'English Speaking', 'Cultural Heritage']
+        },
+        {
+          country: 'UAE',
+          city: 'Dubai',
+          image: 'https://images.pexels.com/photos/290595/pexels-photo-290595.jpeg?auto=compress&cs=tinysrgb&w=800',
+          hospitals: '25+ Partner Hospitals',
+          rating: '4.9',
+          specialties: ['Cosmetic Surgery', 'Cardiology', 'Orthopedics', 'Dental Care'],
+          savings: 'Up to 70% savings',
+          travelTime: '12-16 hours from US',
+          visaInfo: 'Visa on Arrival',
+          highlights: ['Luxury Facilities', 'No Language Barrier', 'Modern Infrastructure']
+        },
+        {
+          country: 'Thailand',
+          city: 'Bangkok',
+          image: 'https://images.pexels.com/photos/1007657/pexels-photo-1007657.jpeg?auto=compress&cs=tinysrgb&w=800',
+          hospitals: '25+ Partner Hospitals',
+          rating: '4.9',
+          specialties: ['Cosmetic Surgery', 'Dental Care', 'Fertility', 'Wellness'],
+          savings: 'Up to 75% savings',
+          travelTime: '12-24 hours from US',
+          visaInfo: 'Visa on Arrival',
+          highlights: ['Tourism Friendly', 'Affordable', 'High Quality Care']
+        },
+        {
+          country: 'Turkey',
+          city: 'Istanbul',
+          image: 'https://images.pexels.com/photos/725255/pexels-photo-725255.jpeg?auto=compress&cs=tinysrgb&w=800',
+          hospitals: '20+ Partner Hospitals',
+          rating: '4.9',
+          specialties: ['Hair Transplant', 'Dental Care', 'Cosmetic Surgery', 'Eye Surgery'],
+          savings: 'Up to 70% savings',
+          travelTime: '8-12 hours from US',
+          visaInfo: 'e-Visa Available',
+          highlights: ['Hair Transplant Experts', 'Cultural Experience', 'Affordable Luxury']
+        }
   ];
 
   return (

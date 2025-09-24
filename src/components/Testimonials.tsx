@@ -3,50 +3,50 @@ import { Star, Quote } from 'lucide-react';
 
 const Testimonials = () => {
   const testimonials = [
-    {
-      name: 'Jennifer Martinez',
-      age: 45,
-      procedure: 'Cardiac Bypass Surgery',
-      location: 'Bangkok, Thailand',
-      rating: 5,
-      image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400',
-      testimonial: 'The care I received was exceptional. The surgical team was world-class and the facility was better than many hospitals back home. I saved over $60,000 and received premium treatment.',
-      savings: '$62,000 saved',
-      date: '3 months ago'
-    },
-    {
-      name: 'Robert Chen',
-      age: 52,
-      procedure: 'Knee Replacement',
-      location: 'New Delhi, India',
-      rating: 5,
-      image: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=400',
-      testimonial: 'From initial consultation to post-surgery care, everything was seamlessly managed. The doctor explained every detail and the recovery was faster than expected.',
-      savings: '$35,000 saved',
-      date: '6 months ago'
-    },
-    {
-      name: 'Lisa Thompson',
-      age: 38,
-      procedure: 'IVF Treatment',
-      location: 'Mexico City, Mexico',
-      rating: 5,
-      image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400',
-      testimonial: 'After multiple failed attempts in the US, we found success here. The fertility clinic had state-of-the-art technology and the most caring staff. Our dream came true!',
-      savings: '$25,000 saved',
-      date: '1 year ago'
-    },
-    {
-      name: 'Michael Johnson',
-      age: 41,
-      procedure: 'Hair Transplant',
-      location: 'Istanbul, Turkey',
-      rating: 5,
-      image: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=400',
-      testimonial: 'The results exceeded my expectations. The surgeon was an artist and the entire process was comfortable. Six months later, I have a full head of hair and my confidence back.',
-      savings: '$15,000 saved',
-      date: '8 months ago'
-    }
+        {
+          name: 'Jennifer Martinez',
+          age: 45,
+          procedure: 'Cardiac Bypass Surgery',
+          location: 'Bangkok, Thailand',
+          rating: 5,
+          image: 'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=400',
+          testimonial: 'The care I received was exceptional. The surgical team was world-class and the facility was better than many hospitals back home. I saved over $60,000 and received premium treatment.',
+          savings: '$62,000 saved',
+          date: '3 months ago'
+        },
+        {
+          name: 'Robert Chen',
+          age: 52,
+          procedure: 'Knee Replacement',
+          location: 'New Delhi, India',
+          rating: 5,
+          image: 'https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg?auto=compress&cs=tinysrgb&w=400',
+          testimonial: 'From initial consultation to post-surgery care, everything was seamlessly managed. The doctor explained every detail and the recovery was faster than expected.',
+          savings: '$35,000 saved',
+          date: '6 months ago'
+        },
+        {
+          name: 'Lisa Thompson',
+          age: 38,
+          procedure: 'IVF Treatment',
+          location: 'Mexico City, Mexico',
+          rating: 5,
+          image: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=400',
+          testimonial: 'After multiple failed attempts in the US, we found success here. The fertility clinic had state-of-the-art technology and the most caring staff. Our dream came true!',
+          savings: '$25,000 saved',
+          date: '1 year ago'
+        },
+        {
+          name: 'Michael Johnson',
+          age: 41,
+          procedure: 'Hair Transplant',
+          location: 'Istanbul, Turkey',
+          rating: 5,
+          image: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=400',
+          testimonial: 'The results exceeded my expectations. The surgeon was an artist and the entire process was comfortable. Six months later, I have a full head of hair and my confidence back.',
+          savings: '$15,000 saved',
+          date: '8 months ago'
+        }
   ];
 
   return (
