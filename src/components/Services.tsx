@@ -81,12 +81,63 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-800 mb-4">
-            World-Class Medical Services
+            Comprehensive Medical Services
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Access premium healthcare treatments at leading international hospitals 
-            with significant cost savings and exceptional care quality.
+            From consultation to follow-up care, we provide complete medical tourism services 
+            with world-class facilities and expert medical professionals.
           </p>
+        </div>
+
+        {/* Service Categories */}
+        <div className="mb-16">
+          <h3 className="text-2xl font-bold text-gray-800 text-center mb-8">Our Service Categories</h3>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="bg-blue-50 rounded-xl p-6 text-center">
+              <div className="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Heart className="w-6 h-6 text-blue-600" />
+              </div>
+              <h4 className="font-semibold text-gray-800 mb-2">Medical Consultation & Diagnosis</h4>
+              <ul className="text-sm text-gray-600 space-y-1">
+                <li>• Pre-treatment consultations (online or in-person)</li>
+                <li>• Review of medical history and reports</li>
+              </ul>
+            </div>
+            <div className="bg-green-50 rounded-xl p-6 text-center">
+              <div className="bg-green-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Bone className="w-6 h-6 text-green-600" />
+              </div>
+              <h4 className="font-semibold text-gray-800 mb-2">Medical Treatment & Surgery</h4>
+              <ul className="text-sm text-gray-600 space-y-1">
+                <li>• Elective surgeries (cosmetic, orthopedic, bariatric)</li>
+                <li>• Specialized treatments (cardiac, fertility, oncology)</li>
+                <li>• Dental procedures</li>
+                <li>• Alternative treatments (Ayurveda, acupuncture)</li>
+              </ul>
+            </div>
+            <div className="bg-purple-50 rounded-xl p-6 text-center">
+              <div className="bg-purple-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Activity className="w-6 h-6 text-purple-600" />
+              </div>
+              <h4 className="font-semibold text-gray-800 mb-2">Hospitalization</h4>
+              <ul className="text-sm text-gray-600 space-y-1">
+                <li>• In-patient care</li>
+                <li>• ICU and post-operative care</li>
+                <li>• Room charges and meals</li>
+              </ul>
+            </div>
+            <div className="bg-orange-50 rounded-xl p-6 text-center">
+              <div className="bg-orange-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Eye className="w-6 h-6 text-orange-600" />
+              </div>
+              <h4 className="font-semibold text-gray-800 mb-2">Post-Treatment Follow-Up</h4>
+              <ul className="text-sm text-gray-600 space-y-1">
+                <li>• Recovery monitoring</li>
+                <li>• Medication provision</li>
+                <li>• Telehealth or virtual follow-ups</li>
+              </ul>
+            </div>
+          </div>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">

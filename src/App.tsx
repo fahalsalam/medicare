@@ -7,6 +7,7 @@ import Destinations from './components/Destinations';
 import TravelPlan from './components/TravelPlan';
 import Packages from './components/Packages';
 import HowItWorks from './components/HowItWorks';
+import Hospitals from './components/Hospitals';
 import Doctors from './components/Doctors';
 import Testimonials from './components/Testimonials';
 import Blog from './components/Blog';
@@ -25,6 +26,7 @@ function App() {
       <TravelPlan />
       <Packages />
       <HowItWorks />
+      <Hospitals />
       <Doctors />
       <Testimonials />
       <Blog />
